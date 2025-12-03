@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tattoo Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tattoo-ui" class="hidden">
+        <div class="container">
+            <!-- Header -->
+            <div class="header">
+                <div class="header-content">
+                    <div class="logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <span>Tattoo Studio</span>
+                    </div>
+                    <button class="close-btn" id="close-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="content">
+                <!-- Category View -->
+                <div id="category-view" class="view">
+                    <div class="section-title">
+                        <h2>Wähle eine Körperzone</h2>
+                        <p class="subtitle">Wähle aus wo das Tattoo platziert werden soll</p>
+                    </div>
+                    <div class="category-grid" id="category-grid">
+                        <!-- Categories will be injected here -->
+                    </div>
+                </div>
+
+                <!-- Tattoo Selection View -->
+                <div id="tattoo-view" class="view hidden">
+                    <div class="back-button" id="back-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                        Zurück
+                    </div>
+                    <div class="section-title">
+                        <h2 id="zone-title">Tattoos</h2>
+                        <p class="subtitle" id="zone-subtitle">Wähle dein gewünschtes Design</p>
+                    </div>
+                    <div class="tattoo-grid" id="tattoo-grid">
+                        <!-- Tattoos will be injected here -->
+                    </div>
+                </div>
+
+                <!-- Confirmation View -->
+                <div id="confirm-view" class="view hidden">
+                    <div class="confirm-container">
+                        <div class="confirm-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h2 id="confirm-title">Tattoo bestätigen</h2>
+                        <p class="confirm-name" id="confirm-name">Tattoo Name</p>
+                        <p class="confirm-price" id="confirm-price">$500</p>
+                        <div class="confirm-actions">
+                            <button class="btn btn-secondary" id="cancel-btn">Abbrechen</button>
+                            <button class="btn btn-primary" id="confirm-btn">Bestätigen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
