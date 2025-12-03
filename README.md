@@ -1,4 +1,4 @@
-# 🎨 ESX Tattoo Shop - Professional Tattoo System
+# 🎨 ESX Tattoo -  Tattoo System
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Framework](https://img.shields.io/badge/framework-ESX%20Legacy-red.svg)
 
-*A modern, feature-rich tattoo system for FiveM with custom UI and ox_target integration*
+
 
 [Features](#-features) • [Installation](#-installation) • [Configuration](#-configuration) • [Usage](#-usage) • [Support](#-support)
 
@@ -276,47 +276,6 @@ esx_tattooshop/
 
 ---
 
-## 🤝 Support & Contact
-
-### Need Help?
-- **Issues**: [GitHub Issues](https://github.com/yourusername/esx_tattooshop/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/esx_tattooshop/discussions)
-- **Discord**: Join our Discord server (add your invite link)
-
-### Found a Bug?
-Please report with:
-1. FiveM/ESX version
-2. Console errors (F8)
-3. Steps to reproduce
-4. Screenshots if applicable
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
-```
-MIT License
-
-Copyright (c) 2025 ELBaron
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
----
 
 ## 🌟 Credits
 
@@ -325,12 +284,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 **UI Design**: Custom Glassmorphism Theme  
 **Dependencies**: ox_lib, ox_target, oxmysql  
 
-### Special Thanks
-- ESX Framework Team
-- Overextended Team (ox_lib, ox_target, oxmysql)
-- FiveM Community
-
----
+--- 
 
 ## 📝 Changelog
 
@@ -349,8 +303,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 <div align="center">
 
-**⭐ If you like this resource, please star the repository! ⭐**
-
-Made with ❤️ by ELBaron
+❤️ by ELBaron
 
 </div>
+
